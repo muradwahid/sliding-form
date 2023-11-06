@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="blueBg">
+            <div class="box singinBx">
+                <h3>Already have an account ?</h3>
+                <button class="signinBtn">Sign in</button>
+            </div>
+            <div class="box singupBx">
+                <h3>Don't have an account ?</h3>
+                <button class="signupBtn">Sign up</button>
+            </div>
+        </div>
+        <div class="formBx">
+            <div class="form signinForm">
+                <form>
+                    <h2>Sign in</h2>
+                    <div class="inputArea ">
+                        <input type="text" placeholder="Username" id="username">
+                        <span class="error">error message</span>
+                    </div>
+                    <div class="inputArea">
+                        <input type="password" placeholder="Password" id="password">
+                        <span class="error">error message</span>
+                    </div>
+                    <input type="submit" value="Login" class="singninBtn2">
+                </form>
+            </div>
+            <div class="form signupForm">
+                <form>
+                    <h2>Sign up</h2>
+                    <div class="signupArea">
+                        <input type="text" placeholder="Username" class="username">
+                        <span class="error">error message</span>
+                    </div>
+                    <div class="signupArea">
+                        <input type="text" placeholder="Email" class="email">
+                        <span class="error">error message</span>
+                    </div>
+                    <div class="signupArea">
+                        <input type="password" placeholder="Password" class="password">
+                        <span class="error">error message</span>
+                    </div>
+                    <div class="signupArea">
+                        <input type="password" placeholder="Confirm Password" class="confirm password">
+                        <span class="error" >error message</span>
+                    </div>
+                    <input type="submit" value="Register" class="signupBtn2">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
